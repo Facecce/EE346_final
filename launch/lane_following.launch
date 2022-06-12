@@ -1,0 +1,10 @@
+<launch>
+
+  <node pkg="lane_following" type="competition_lane.py" name="lane_follower" />
+   
+
+
+
+</launch>
+
+
