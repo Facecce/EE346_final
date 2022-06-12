@@ -1,6 +1,6 @@
 # Mobile Robot Navigation and Control Final Lab Report
 # Yuxuan Deng, Zihan Song
-## Github repository link : https://github.com/DengYuxuan-sus/Lab6.git
+## Github repository link : https://github.com/Facecce/EE346_final.git
 ## Introduce
 ### In the previous experiment class, we completed the mapping and navigation of the turnlebot3, calibrated the raspberry camera, and completed the line following and aruco code recognition according to the steps of the experiment class. In the last experiment class, we need to integrate on TurtleBot3 the functions that have been developed in all the previous labs throughout the semester making the turtlebot automatically detect and follow the line, find points and identify aruco. The competition lasts five minutes. Within the stated time, starting from P1, complete one or more of the three tasks, and then return to P1 for one lap. In each lap, each task cannot be completed repeatedly, and each task has different scores. Therefore, we need to complete as many tasks as possible within five minutes to strive for more scores.
 ### <div align=center><img  src ="image/1.png"/></div>
