@@ -1,5 +1,5 @@
 # Mobile Robot Navigation and Control Final Lab Report
-# Yuxuan Deng, Zihan Song
+# Yuxuan Deng 11910208 , Zihan Song 11810307
 ## Github repository link : https://github.com/Facecce/EE346_final.git
 ## Introduce
 ### In the previous experiment class, we completed the mapping and navigation of the turnlebot3, calibrated the raspberry camera, and completed the line following and aruco code recognition according to the steps of the experiment class. In the last experiment class, we need to integrate on TurtleBot3 the functions that have been developed in all the previous labs throughout the semester making the turtlebot automatically detect and follow the line, find points and identify aruco. The competition lasts five minutes. Within the stated time, starting from P1, complete one or more of the three tasks, and then return to P1 for one lap. In each lap, each task cannot be completed repeatedly, and each task has different scores. Therefore, we need to complete as many tasks as possible within five minutes to strive for more scores.
@@ -78,6 +78,7 @@
 ### It is easy to navigate and identify aruco. Adding a while loop is enough to complete the whole process. We directly subscribe to 'move_base/result' topic messages. Each time we reach the target point, the variable point will increase automatically and publish the next target point. First, before the time starts, we need to manually locate the Turtlebot in rviz. After the start, publish a navigation target point close to P1 as the start signal.
 ### <div align=center><img  src ="image/competition.png"/></div>
 ###  <center>Competition screen shoot</center>
+### The complete video clips for on lap are atrached in folder "/video"
 ## Conclusion
 ### (1) We think there are many deficiencies in our competition code. First, the code is not clean enough. All the codes are stacked together, which is very troublesome to modify. We should organize different task codes into one class and call them directly next time. Secondly, the completion of competition tasks can also be greatly improved. Previously, we have not found a good solution to interrupt the lane following for navigation, but in fact, we only need to no longer rely on the lane following to publish speed information after detecting curves, but through navigation control. After reaching the target point, return to the lane line through navigation and continue to follow the lane.
 ### (2) Percentage of contribution from each of the team members
