@@ -81,8 +81,8 @@
 ## Conclusion
 ### (1) We think there are many deficiencies in our competition code. First, the code is not clean enough. All the codes are stacked together, which is very troublesome to modify. We should organize different task codes into one class and call them directly next time. Secondly, the completion of competition tasks can also be greatly improved. Previously, we have not found a good solution to interrupt the lane following for navigation, but in fact, we only need to no longer rely on the lane following to publish speed information after detecting curves, but through navigation control. After reaching the target point, return to the lane line through navigation and continue to follow the lane.
 ### (2) Percentage of contribution from each of the team members
-- Yuxuan Deng    80%
-- Zihan Song       20%
+- Yuxuan Deng    75%
+- Zihan Song       25%
 
 ## Completed commands
 ### Connect to the Turtlebot3
